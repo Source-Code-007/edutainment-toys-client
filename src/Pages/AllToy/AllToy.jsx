@@ -116,7 +116,7 @@ const AllToy = () => {
                                     <td className="bg-slate-200 text-center"> {sellerName.toUpperCase()}</td>
                                     <td className="bg-slate-200 text-center"> {availableQuantity}</td>
                                     <td className="bg-slate-200 text-center">${price}</td>
-                                    <td className="bg-slate-200 text-right"> <label onClick={() => handleViewDetailsFunc(toy)} htmlFor="my-modal-3" className="cursor-pointer btn border-none bg-green-500 hover:bg-green-700">View Details</label>
+                                    <td className="bg-slate-200 text-right"> <label onClick={() => handleViewDetailsFunc(toy)} htmlFor="my-modal-3" className="cursor-pointer btn btn-outline btn-success">View Details</label>
                                     </td>
 
                                 </tr>

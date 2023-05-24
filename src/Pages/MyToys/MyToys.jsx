@@ -122,10 +122,10 @@ const MyToys = () => {
                                             </div>
                                         </div>
                                     </td>
-                                    <td className="bg-slate-200 text-center">  <label onClick={() => setDescription(description)} htmlFor="my-modal-myToyDesc" className="cursor-pointer btn border-none bg-green-500 hover:bg-green-700"><FaInfo></FaInfo></label></td>
+                                    <td className="bg-slate-200 text-center">  <label onClick={() => setDescription(description)} htmlFor="my-modal-myToyDesc" className="btn btn-outline btn-circle btn-success"><FaInfo></FaInfo></label></td>
                                     <td className="bg-slate-200 text-center"> {availableQuantity}</td>
                                     <td className="bg-slate-200 text-center">${price}</td>
-                                    <td className="bg-slate-200 text-center"> <div className="flex items-center justify-center gap-3 cursor-pointer"> <label onClick={() => updateToyFunc(_id)} htmlFor="my-modal-3" className="cursor-pointer text-white btn bg-green-500 hover:bg-green-700 border-none"><FaPen></FaPen></label> <span  onClick={() => handleDeleteFunc(_id)} className="text-white bg-red-500 border-none hover:bg-red-700 btn"><FaTrash></FaTrash></span></div> </td>
+                                    <td className="bg-slate-200 text-center"> <div className="flex items-center justify-center gap-3 cursor-pointer"> <label onClick={() => updateToyFunc(_id)} htmlFor="my-modal-3" className="btn btn-outline btn-circle btn-success"><FaPen></FaPen></label> <span  onClick={() => handleDeleteFunc(_id)} className="btn btn-outline btn-circle btn-error"><FaTrash></FaTrash></span></div> </td>
                                 </tr>
                             })
                         }
