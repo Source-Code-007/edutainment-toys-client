@@ -14,7 +14,7 @@ const UpdateToyModal = ({ singleToyForUpdate, setSingleToyForUpdate }) => {
         const description = form.description.value
         const updatedToyInfo = { price, availableQuantity, description }
         const option = {
-            method: 'POST',
+            method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
             },

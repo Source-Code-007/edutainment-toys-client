@@ -33,7 +33,7 @@ const Discount = () => {
     }, []);
 
     return (
-        <div className='bg-cover bg-center bg-slate-800 bg-blend-overlay' style={{backgroundImage: `url(${discountBg})`}}>
+        <div className='bg-cover bg-fixed bg-center bg-slate-800 bg-blend-overlay' style={{backgroundImage: `url(${discountBg})`}}>
             <div className='my-container overflow-hidden'>
                 <div className='font-semibold flex flex-col gap-10 text-center justify-center items-center min-h-screen'>
                     <div className='w-4/6 lg:w-3/6 mx-auto text-center space-y-3'>
