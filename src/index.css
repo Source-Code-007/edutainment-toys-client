@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #001531;
+    color: white;
+}
+
+
+/* navbar */
+.dropdown-content a{
+    display: block;
+}
+
+/* swiper carousel pagination */
+.swiper-pagination-bullet-active {
+    background-color: orange !important;
+    height: 10px !important;
+    width: 10px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+span,
+p,
+button {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.my-container {
+    @apply max-w-7xl mx-8 lg:mx-10 xl:mx-auto
+}
+
+.my-title {
+    @apply font-bold text-3xl
+}
+
+table tr,
+table td {
+    white-space: normal !important;
+}

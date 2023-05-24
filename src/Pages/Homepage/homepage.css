@@ -1,0 +1,14 @@
+/* Toy Tab */
+.react-tabs__tab-list{
+    text-align: center;
+}
+.react-tabs__tab--selected{
+    padding: 20px !important;
+    background-color: rgb(249, 115, 22) !important;
+}
+.react-tabs__tab--selected{
+    color: #fff !important;
+}
+.react-tabs__tab--selected::after{
+    display: none !important;
+}
